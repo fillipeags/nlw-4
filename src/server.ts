@@ -7,7 +7,7 @@ app.get("/", (request,response) => {
 });
 
 app.post("/", (request,response) => {
-  return response.json({message: "Dados salvos com sucesso"})
+  return response.json({message: "Dados salvos com sucesso  "})
 })
 
 app.listen(3333, () => console.log("Server is running"))
