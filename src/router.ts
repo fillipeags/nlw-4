@@ -5,9 +5,9 @@ import { UserController } from "./controllers/UserController";
 
 const router = Router();
 
-const userController = new UserController();
-const surveysController = new SurveysController();
-const sendMailController = new SendMailController();
+const userController = new UserController()
+const surveysController = new SurveysController()
+const sendMailController = new SendMailController()
 
 router.post("/users", userController.create);
 router.post("/surveys", surveysController.create); 

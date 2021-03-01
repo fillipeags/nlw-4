@@ -3,7 +3,7 @@ import express from 'express';
 import createConnection from './database';
 import { router } from './router';
 
-createConnection();
+createConnection()
 const app = express();
 
 app.use(express.json());
