@@ -66,6 +66,7 @@ class SendMailController {
     await SendMailService.execute(email, survey.title, variables, npsPath);
 
     return response.json(surveyUser);
+
   }
 }
 
